@@ -5,93 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banda Verdejante</title>
     <style>
-        /* Estilos para dispositivos com telas pequenas (smartphones) */
-        body {
+       
+        body{
             background-color: black;
             background-image: url(IMAGENS/fundo-foto.jpg);
             background-repeat: no-repeat;
             background-position: center top;
             background-size: cover;
             overflow-X: hidden;
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
         }
-
-        #img {
-            text-align: center;
+        #img{
+            width: 500px;
+            margin: auto;
         }
-
-        img {
-            width: 80%; /* Reduz o tamanho da imagem para dispositivos menores */
-            max-width: 300px; /* Tamanho máximo da imagem para dispositivos menores */
+        .img{
+            width: 200px;
             border-radius: 50%;
+            margin: 40px;
             border: 3px solid white;
-            margin: 20px auto; /* Centralize a imagem horizontalmente */
-        }
-
-        img:hover {
+        } 
+        .img:hover{
             box-shadow: 1px 1px 10px 10px white;
             transition: 0.5s;
             cursor: pointer;
         }
-
-        #center {
+        #center{
             text-align: center;
+            width: 100vw;
             display: flex;
-            flex-wrap: wrap; /* Permita que os elementos se ajustem em telas menores */
-            justify-content: center;
-            padding: 20px;
+            justify-content: space-between;
         }
-
-        h1 {
+        h1{
             color: white;
-            font-size: 24px; /* Ajusta o tamanho da fonte para dispositivos menores */
-            margin-top: 0;
             text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0px;
         }
-
-        p {
+        p{
             color: white;
             font-family: cursive;
             font-style: italic;
-            font-size: 16px; /* Ajusta o tamanho da fonte para dispositivos menores */
-            margin: 5px 15px;
-            padding: 10px;
-            text-align: center;
+            font-size: 19pt;
+            text-shadow: 3px 3px 10px black;
         }
 
-        p:hover {
+        p:hover{
             background-color: rgba(128, 128, 128, 0.699);
-            cursor: pointer;
+            border-radius: 20px;
+            transition: 0.5s;
+            cursor: pointer; }
+
+            @media (max-width: 768px) {
+            img {
+                width: 80%; 
+                max-width: 300px;
+                margin: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px; 
+                margin: 5px 15px;
+                padding: 10px;
+            }
         }
     </style>
 </head>
 <body>
     <div id="img">
+
+
         <img src="IMAGENS/IMAGEM-VERDEJANTE.png" alt="img">
+
     </div>
+
     <h1>MINISTROS VERDEJANTES</h1>
-    <div id="center">
-        <div>
-            <a href="repertorios/michele.html"><img src="IMAGENS/michele-foto.jpg" alt="img"></a>
-            <p>Michele</p>
+
+        <div id="center">
+            <div>
+                <a href="repertorios/michele.html"><img class="img" src="IMAGENS/michele-foto.jpg" alt="img"></a>
+                <p>Michele</p>
+            </div>
+            <div>
+                <a href="repertorios/aline.html"><img class="img" src="IMAGENS/aline-foto.jpg" alt="img"></a>
+                <p>Aline</p>
+            </div>
+            <div>
+                <a href="repertorios/leo.html"><img class="img" src="IMAGENS/IMAGEM-LEO.jpg" alt="img"></a>
+                <p title="melo e maluco e toca piano">Leo O Nardo</p>
+            </div>
+            <div>
+                <a href="repertorios/natan.html"><img class="img" src="IMAGENS/natan-foto.jpg" alt="img"></a>
+                <p>Natan</p>
+            </div>
+            <div>
+                <a href="repertorios/monica.html"><img class="img" src="IMAGENS/monica-foto.jpg" alt="img"></a>
+                <p>Monica</p>
+            </div>
         </div>
-        <div>
-            <a href="repertorios/aline.html"><img src="IMAGENS/aline-foto.jpg" alt="img"></a>
-            <p>Aline</p>
-        </div>
-        <div>
-            <a href="repertorios/leo.html"><img src="IMAGENS/IMAGEM-LEO.jpg" alt="img"></a>
-            <p title="melo e maluco e toca piano">Leo O Nardo</p>
-        </div>
-        <div>
-            <a href="repertorios/natan.html"><img src="IMAGENS/natan-foto.jpg" alt="img"></a>
-            <p>Natan</p>
-        </div>
-        <div>
-            <a href="repertorios/monica.html"><img src="IMAGENS/monica-foto.jpg" alt="img"></a>
-            <p>Monica</p>
-        </div>
-    </div>
 </body>
 </html>
