@@ -5,15 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        a{
-           font-style: none;
-           color: black;
-       }
-   </style>
+        a {
+            font-style: none;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Repertório</h1>
-    <p><a href="../musicas/atequeosenhorvenha.html">
-        Até que o senhor venha </a></p>
+
+    <input type="text" id="searchInput" placeholder="Digite o nome da música">
+
+    <h1>REPERTÓRIO</h1>
+    <p><a href="../musicas/atequeosenhorvenha.html">Até que o Senhor venha</a></p>
+    <p><a href="../musicas/vitorioso-es.html">Vitorioso és</a></p>
+
+    <script>
+        document.getElementById("searchInput").addEventListener("input", function () {
+            var input, filter, pTags, a, i, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toUpperCase();
+            pTags = document.getElementsByTagName("p");
+
+            for (i = 0; i < pTags.length; i++) {
+                a = pTags[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    pTags[i].style.display = "";
+                } else {
+                    pTags[i].style.display = "none";
+                }
+            }
+        });
+    </script>
+
 </body>
 </html>

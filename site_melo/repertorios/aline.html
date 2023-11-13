@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-         a{
+        a {
             font-style: none;
             color: black;
         }
@@ -13,39 +13,40 @@
 </head>
 <body>
 
-    <p><a href="">
-    </a></p>
-
-    <h1>Repertório</h1>
-                <p><a href="../musicas/que-ruja-o-leao.html">
-                Que Ruja O Leão</a></p>
-
-                <p><a href="../musicas/se-manifestara.html">
-                Yaveh se manifestará</a></p>
+    <input type="text" id="searchInput" placeholder="Digite o nome da música">
     
-                <p><a href="../musicas/lugar-secreto.html">
-                    Lugar Secreto</a></p>
-            
-                <p><a href="../musicas/vitorioso-es.html">
-                    Vitorioso És</a></p>
+    <h1>REPERTÓRIO</h1>
+    <p><a href=""></a></p>
+    <p><a href="../musicas/que-ruja-o-leao.html">Que Ruja O Leão</a></p>
+    <p><a href="../musicas/se-manifestara.html">Yaveh se manifestará</a></p>
+    <p><a href="../musicas/lugar-secreto.html">Lugar Secreto</a></p>
+    <p><a href="../musicas/vitorioso-es.html">Vitorioso És</a></p>
+    <p><a href="../musicas/atequeosenhorvenha.html">Até que o Senhor venha</a></p>
+    <p><a href="../musicas/eu-vou-amanhecer.html">Eu vou amanhecer</a></p>
+    <p><a href="../musicas/o-meu-amor-e-teu.html">O meu amor é teu (livre)</a></p>
+    <p><a href="../musicas/valor.html">Valor</a></p>
+    <p><a href="../musicas/ate-te-encontrar.html">Até te encontrar</a></p>
+    <p><a href="../musicas/fe-e-razao.html"></a>Fé e Razão</p>
+    <p><a href="../musicas/toda-via-me-alegrarei"></a>Toda Via Me Alegrarei</p>
 
-                <p><a href="../musicas/atequeosenhorvenha.html">
-                        Até que o senhor venha </a></p>    
+    <script>
+        document.getElementById("searchInput").addEventListener("input", function () {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toUpperCase();
+            pTags = document.getElementsByTagName("p");
 
-                 <p><a href="../musicas/eu-vou-amanhecer.html">
-                         Eu vou amanhecer </a></p>
+            for (i = 0; i < pTags.length; i++) {
+                a = pTags[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    pTags[i].style.display = "";
+                } else {
+                    pTags[i].style.display = "none";
+                }
+            }
+        });
+    </script>
 
-                         <p><a href="../musicas/o-meu-amor-e-teu.html">
-                            O meu amor é teu (livre) </a></p>
-   
-                            <p><a href="../musicas/valor.html">
-                           Valor </a></p>
-
-                           <p><a href="../musicas/ate-te-encontrar.html">
-                        sadasdas</a></p>
-
-                    
-
-        
 </body>
 </html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todavia Me Alegrarei</title>
+    <style>
+        pre {
+            font-size: 20px;
+            text-align: center;
+            line-height: 1.5;
+            margin: 5;
+            padding: 10px;
+        }
+
+        #lyric {
+            font-size: 20pt;
+            border: 2px solid black;
+            width: 400px;
+            padding-left: 20px;
+            margin-bottom: 20px; /* Adiciona margem inferior para separar da imagem */
+        }
+    </style>
+    <!-- Lightbox2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha256-nF2yi6VXW9/7t9z0NtDk+PjO4uU6zCjsFj4nLBSxQwE=" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="lyric" class="lyric-original">
+        <p>Eu tenho um Deus<br>
+        Que não vai deixar<br>
+        Essa luta me matar<br>
+        O desespero me tomar</p>
+
+        <p>Por mais pressão<br>
+        Que esteja a situação<br>
+        O controle ainda está<br>
+        Na palma de suas mãos</p>
+
+        <p>O choro dura uma noite, mas a alegria<br>
+        Ela vem pela manhã<br>
+        Eu creio, eu creio</p>
+
+        <p>O choro dura uma noite, mas a alegria<br>
+        Ela vem pela manhã<br>
+        Eu creio, eu creio</p>
+
+        <p>Ainda que a figueira não floresça<br>
+        Que não haja fruto na vide<br>
+        E o produto da oliveira minta</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>O choro dura uma noite, mas a alegria<br>
+        Ela vem pela manhã<br>
+        Eu creio, eu creio</p>
+
+        <p>O choro dura uma noite, mas a alegria<br>
+        Ela vem pela manhã<br>
+        Eu creio, eu creio</p>
+
+        <p>Ainda que a figueira não floresça<br>
+        Que não haja fruto na vide<br>
+        E o produto da oliveira minta</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Ainda que a figueira não floresça<br>
+        Ainda que a figueira não floresça<br>
+        Que não haja fruto na vide<br>
+        E o produto da oliveira minta</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>O choro dura uma noite, mas a alegria<br>
+        Ela vem pela manhã<br>
+        Eu creio, eu creio</p>
+
+        <p>O choro dura uma noite, mas a alegria<br>
+        Ela vem pela manhã<br>
+        Eu creio, eu creio</p>
+
+        <p>Ainda que a figueira não floresça<br>
+        Que não haja fruto na vide<br>
+        E o produto da oliveira minta</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Ainda que a figueira não floresça<br>
+        Ainda que a figueira não floresça<br>
+        Que não haja fruto na vide<br>
+        E o produto da oliveira minta</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+
+        <p>Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei<br>
+        Todavia eu me alegrarei</p>
+    </div>
+    <!-- Coloque aqui o caminho da imagem -->
+    <a href="../cifras/toda-via-me-alegrarei.png" data-lightbox="lyric-image" data-title="Todavia Me Alegrarei - Samuel Messias">
+        <img src="../cifras/toda-via-me-alegrarei.png" alt="">
+    </a>
+    <!-- Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha256-5Zr5aPm3XBG1miqY9jk2x8+s7ErektZ2IM5n6L2/V54=" crossorigin="anonymous"></script>
+</body>
+</html>
