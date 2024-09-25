@@ -1,26 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>www.linux.com.br</title>
     <style>
-        div {
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap'); /* Importando uma fonte estilizada */
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-image: url('../IMAGENS/karino.jpeg');
+            background-size: cover;
+            background-position: center;
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            text-align: center;
         }
-        img {
-            padding: 20px 20px;
-            width: 250px;
+
+        .logo {
+            font-family: 'Oswald', sans-serif; /* Usando a nova fonte */
+            font-size: 80px;
+            font-weight: bold;
+            color: black;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 
+                         0px 0px 10px white; /* Sombra e contorno */
+            -webkit-text-stroke: 1px white; /* Contorno branco */
+            margin-top: 30px;
+        }
+
+        .content {
+            font-size: 50px;
+            background: rgba(0, 0, 0, 0.5); /* Fundo escuro semitransparente */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            font-size: 40px;
+            margin-bottom: 30px;
         }
     </style>
 </head>
 <body>
-    <div>
-        <a href="https://www.youtube.com/watch?v=lW-kUPvYVBI"><img src="../IMAGENS/yt.jpg" alt="youtube"></a>
-        <a href="https://open.spotify.com/intl-pt/track/0qPxaOyyBvVNUPIAgNIfcm"><img src="../IMAGENS/spotify.png" alt="spotify"></a>
-        <a href="https://www.letras.mus.br/be-one-music/valor/"><img src="../IMAGENS/letras.png" alt="letras"></a>
-    </div>
+    <!-- Logo no topo com fonte diferente, contorno e sombra -->
+    <div class="logo">BIO LINUX</div>
+
+    <!-- Texto central -->
+    <div class="content">Quer ganhar dinheiro??</div>
+
+    <!-- URL no rodapé -->
+    <div class="footer">www.linux.com.br</div>
 </body>
 </html>
-
